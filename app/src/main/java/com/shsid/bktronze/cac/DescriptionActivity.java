@@ -34,53 +34,53 @@ public class DescriptionActivity extends Activity {
         String customHtml = "";
 
         Intent descriptionIntent = new Intent(this.getIntent());
-        String buildingTag = descriptionIntent.getStringExtra("building");
+        String buildingTag = descriptionIntent.getStringExtra(CACConstants.DESC_INTENT_EXTRA_KEY);
 
-        if(buildingTag.equals("cac_btn_gate")) {
+        if(buildingTag.equals(CACConstants.TAG_GATE)) {
             customHtml = "file:///android_asset/cac_desc_gate.html";
             titleTV.setText(R.string.gate_title);
         }
-        else if(buildingTag.equals("art")) {
+        else if(buildingTag.equals(CACConstants.TAG_ART)) {
             customHtml = "file:///android_asset/cac_desc_art.html";
                 titleTV.setText(R.string.art_title);
             }
 
-            else if(buildingTag.equals("cafeteria")) {
+            else if(buildingTag.equals(CACConstants.TAG_CAFE)) {
             customHtml = "file:///android_asset/cac_desc_cafe.html";
                 titleTV.setText(R.string.cafeteria_title);
             }
 
-            else if(buildingTag.equals("barracks")) {
+            else if(buildingTag.equals(CACConstants.TAG_BARRACKS)) {
             customHtml = "file:///android_asset/cac_desc_barracks.html";
                 titleTV.setText(R.string.barracks_title);
             }
 
-            else if(buildingTag.equals("assembly")) {
+            else if(buildingTag.equals(CACConstants.TAG_ASSEMBLY)) {
             customHtml = "file:///android_asset/cac_desc_assembly.html";
                 titleTV.setText(R.string.assembly_title);
             }
 
-            else if(buildingTag.equals("pool")) {
+            else if(buildingTag.equals(CACConstants.TAG_POOL)) {
             customHtml = "file:///android_asset/cac_desc_pool.html";
                 titleTV.setText(R.string.pool_title);
             }
 
-            else if(buildingTag.equals("longmian")) {
+            else if(buildingTag.equals(CACConstants.TAG_LONGMIAN)) {
             customHtml = "file:///android_asset/cac_desc_longmian.html";
                 titleTV.setText(R.string.longMian_title);
             }
 
-            else if(buildingTag.equals("xianmian")) {
+            else if(buildingTag.equals(CACConstants.TAG_XIANMIAN)) {
             customHtml = "file:///android_asset/cac_desc_xianmian.html";
                 titleTV.setText(R.string.xianMian_title);
             }
 
-        else if(buildingTag.equals("finance")) {
+        else if(buildingTag.equals(CACConstants.TAG_FINANCE)) {
             customHtml = "file:///android_asset/cac_desc_finance.html";
             titleTV.setText(R.string.finance_title);
         }
 
-        else if(buildingTag.equals("jg")) {
+        else if(buildingTag.equals(CACConstants.TAG_JG)) {
             customHtml = "file:///android_asset/cac_desc_jg.html";
             titleTV.setText(R.string.jg_title);
         }

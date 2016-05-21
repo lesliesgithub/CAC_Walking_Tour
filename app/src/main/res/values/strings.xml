@@ -13,7 +13,7 @@
 
     <!-- Main Page Resources -->
     <string name="main_btnAbout">About CAC</string>
-    <string name="main_btnList">Building List</string>
+    <string name="main_btnList">Bldg List</string>
     <string name="main_btnBettyBarr">Betty Barr</string>
     <string name="main_btnJG">JG Ballard</string>
 
@@ -23,32 +23,32 @@
     <string name="welcome_title">What is CAC?</string>
     <string name="welcome_text">Welcome to Shanghai High School International Division, the site of the Lunghua Civilian Assembly Centre, one of the Japanese internment camps for allied civilians during World War II.</string>
 
-    <string name="gate_title">989 Baise Road Gate</string>
-    <string name="gateBtnIndex">1</string>
+    <string name="gate_title">1) 989 Baise Road Gate</string>
+    <string name="btnIndexGate">1</string>
 
-    <string name="art_title">Art Building</string>
-    <string name="artBtnIndex">2</string>
+    <string name="art_title">2) Art Building</string>
+    <string name="btnIndexArt">2</string>
 
-    <string name="cafeteria_title">Student Cafeteria</string>
-    <string name="cafeBtnIndex">3</string>
+    <string name="cafeteria_title">3) Student Cafeteria</string>
+    <string name="btnIndexCafe">3</string>
 
-    <string name="barracks_title">Former Guards\' Barracks</string>
-    <string name="barracksBtnIndex">4</string>
+    <string name="barracks_title">4) Former Guards\' Barracks</string>
+    <string name="btnIndexBarracks">4</string>
 
-    <string name="assembly_title">Auditorium / Assembly Center</string>
-    <string name="assemblyBtnIndex">5</string>
+    <string name="pool_title">5) Swimming Pool/former G Block</string>
+    <string name="btnIndexPool">5</string>
 
-    <string name="pool_title">Swimming Pool</string>
-    <string name="poolBtnIndex">6</string>
+    <string name="assembly_title">6) Auditorium / Assembly Center</string>
+    <string name="btnIndexAssembly">6</string>
 
-    <string name="longMian_title">LongMian Building</string>
-    <string name="longMianBtnIndex">7</string>
+    <string name="longMian_title">7) LongMian Building</string>
+    <string name="btnIndexLongMian">7</string>
 
-    <string name="xianMian_title">XianMian Building</string>
-    <string name="xianMianBtnIndex">8</string>
+    <string name="xianMian_title">8) XianMian Building</string>
+    <string name="btnIndexXianMian">8</string>
 
-    <string name="finance_title">Finance Building + Admissions Office</string>
-    <string name="financeBtnIndex">9</string>
+    <string name="finance_title">9) Finance Building + Admissions Office</string>
+    <string name="btnIndexFinance">9</string>
 
     <!-- BuidlingList Page Resources -->
     <string name="buildingList_title">Building List</string>

@@ -30,8 +30,12 @@ public class MainActivity extends Activity {
 
         MainClick mainClick = new MainClick();
 
+        findViewById(R.id.btnGate).setOnClickListener(mainClick);
         findViewById(R.id.btnArt).setOnClickListener(mainClick);
-        findViewById(R.id.btnAuditorium).setOnClickListener(mainClick);
+        findViewById(R.id.btnCafe).setOnClickListener(mainClick);
+        findViewById(R.id.btnAssembly).setOnClickListener(mainClick);
+        findViewById(R.id.btnPool).setOnClickListener(mainClick);
+        findViewById(R.id.btnBarracks).setOnClickListener(mainClick);
         findViewById(R.id.btnFinance).setOnClickListener(mainClick);
         findViewById(R.id.btnLongmian).setOnClickListener(mainClick);
         findViewById(R.id.btnXianmian).setOnClickListener(mainClick);
@@ -48,33 +52,57 @@ public class MainActivity extends Activity {
         public void onClick(View v) {
             switch (v.getId()) {
 
+                case R.id.btnGate:
+                    mainIntent = new Intent(MainActivity.this, DescriptionActivity.class);
+                    mainIntent.putExtra(CACConstants.DESC_INTENT_EXTRA_KEY, CACConstants.TAG_GATE);
+                    startActivity(mainIntent);
+                    break;
+
                 case R.id.btnArt:
                     mainIntent = new Intent(MainActivity.this, DescriptionActivity.class);
-                    mainIntent.putExtra("building", "art");
+                    mainIntent.putExtra(CACConstants.DESC_INTENT_EXTRA_KEY, CACConstants.TAG_ART);
                     startActivity(mainIntent);
                     break;
 
-                case R.id.btnAuditorium:
+                case R.id.btnCafe:
                     mainIntent = new Intent(MainActivity.this, DescriptionActivity.class);
-                    mainIntent.putExtra("building", "auditorium");
+                    mainIntent.putExtra(CACConstants.DESC_INTENT_EXTRA_KEY, CACConstants.TAG_CAFE);
                     startActivity(mainIntent);
                     break;
 
-                case R.id.btnFinance:
+                case R.id.btnBarracks:
                     mainIntent = new Intent(MainActivity.this, DescriptionActivity.class);
-                    mainIntent.putExtra("building", "finance");
+                    mainIntent.putExtra(CACConstants.DESC_INTENT_EXTRA_KEY, CACConstants.TAG_BARRACKS);
+                    startActivity(mainIntent);
+                    break;
+
+                case R.id.btnAssembly:
+                    mainIntent = new Intent(MainActivity.this, DescriptionActivity.class);
+                    mainIntent.putExtra(CACConstants.DESC_INTENT_EXTRA_KEY, CACConstants.TAG_ASSEMBLY);
+                    startActivity(mainIntent);
+                    break;
+
+                case R.id.btnPool:
+                    mainIntent = new Intent(MainActivity.this, DescriptionActivity.class);
+                    mainIntent.putExtra(CACConstants.DESC_INTENT_EXTRA_KEY, CACConstants.TAG_POOL);
                     startActivity(mainIntent);
                     break;
 
                 case R.id.btnLongmian:
                     mainIntent = new Intent(MainActivity.this, DescriptionActivity.class);
-                    mainIntent.putExtra("building", "longmian");
+                    mainIntent.putExtra(CACConstants.DESC_INTENT_EXTRA_KEY, CACConstants.TAG_LONGMIAN);
                     startActivity(mainIntent);
                     break;
 
                 case R.id.btnXianmian:
                     mainIntent = new Intent(MainActivity.this, DescriptionActivity.class);
-                    mainIntent.putExtra("building", "xianmian");
+                    mainIntent.putExtra(CACConstants.DESC_INTENT_EXTRA_KEY, CACConstants.TAG_XIANMIAN);
+                    startActivity(mainIntent);
+                    break;
+
+                case R.id.btnFinance:
+                    mainIntent = new Intent(MainActivity.this, DescriptionActivity.class);
+                    mainIntent.putExtra(CACConstants.DESC_INTENT_EXTRA_KEY, CACConstants.TAG_FINANCE);
                     startActivity(mainIntent);
                     break;
 
@@ -95,7 +123,7 @@ public class MainActivity extends Activity {
 
                 case R.id.mainBtnJG:
                     mainIntent = new Intent(MainActivity.this, DescriptionActivity.class);
-                    mainIntent.putExtra("building", "jg");
+                    mainIntent.putExtra(CACConstants.DESC_INTENT_EXTRA_KEY, CACConstants.TAG_JG);
                     startActivity(mainIntent);
                     break;
 

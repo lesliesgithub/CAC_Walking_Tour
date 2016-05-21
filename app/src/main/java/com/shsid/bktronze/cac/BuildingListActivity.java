@@ -17,8 +17,16 @@ import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 public class BuildingListActivity extends Activity {
 
     String [] buildingTags = {
-            "cac_btn_gate", "art", "cafeteria", "barracks", "assembly", "pool", "longmian", "xianmian", "finance"
-    };
+            CACConstants.TAG_GATE,
+    CACConstants.TAG_ART,
+    CACConstants.TAG_CAFE,
+    CACConstants.TAG_BARRACKS,
+    CACConstants.TAG_ASSEMBLY,
+    CACConstants.TAG_POOL,
+    CACConstants.TAG_LONGMIAN,
+    CACConstants.TAG_XIANMIAN,
+    CACConstants.TAG_FINANCE
+};
 
     ListView buildingListContent;
 
@@ -49,7 +57,7 @@ public class BuildingListActivity extends Activity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 buildingListIntent = new Intent(BuildingListActivity.this, DescriptionActivity.class);
-                buildingListIntent.putExtra("building", buildingTags[position]);
+                buildingListIntent.putExtra(CACConstants.DESC_INTENT_EXTRA_KEY, buildingTags[position]);
                 startActivity(buildingListIntent);
             }
         });

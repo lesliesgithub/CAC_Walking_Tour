@@ -17,58 +17,196 @@
                 android:layout_height="match_parent"
                 android:src="@drawable/cac_current_map" />
 
-            <ImageView
+            <TextView
+                android:id="@+id/btnGate"
+                android:layout_width="20sp"
+                android:layout_height="20sp"
+                android:foregroundGravity="fill"
+                android:text="@string/btnIndexGate"
+                android:textColor="#040404"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textAlignment="gravity"
+                android:gravity="center"
+                android:background="@android:color/holo_red_dark"
+                android:layout_alignBottom="@+id/mainBtnJG"
+                android:layout_alignStart="@+id/btnFinance" />
+
+            <TextView
                 android:id="@+id/btnArt"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:src="@drawable/cac_btn_art"
+                android:layout_width="20sp"
+                android:layout_height="20sp"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_marginLeft="203dp"
                 android:layout_marginStart="203dp"
-                android:layout_marginTop="57dp" />
+                android:layout_marginTop="57dp"
+                android:foregroundGravity="fill"
+                android:text="@string/btnIndexArt"
+                android:textColor="#040404"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textAlignment="gravity"
+                android:gravity="center"
+                android:background="@android:color/holo_red_dark" />
 
-            <ImageView
-                android:id="@+id/btnAuditorium"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:src="@drawable/cac_btn_assembly"
+            <TextView
+                android:id="@+id/btnCafe"
+                android:layout_width="20sp"
+                android:layout_height="20sp"
                 android:layout_marginTop="32dp"
                 android:layout_below="@+id/btnArt"
                 android:layout_toRightOf="@+id/btnArt"
-                android:layout_toEndOf="@+id/btnArt" />
+                android:layout_toEndOf="@+id/btnArt"
+                android:text="@string/btnIndexCafe"
+                android:textColor="#040404"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textAlignment="gravity"
+                android:gravity="center"
+                android:background="@android:color/holo_red_dark"/>
 
-            <ImageView
+            <TextView
                 android:id="@+id/btnFinance"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="20sp"
+                android:layout_height="20sp"
                 android:src="@drawable/cac_btn_finance"
-                android:layout_alignTop="@+id/btnAuditorium"
-                android:layout_toRightOf="@+id/btnLongmian"
-                android:layout_toEndOf="@+id/btnLongmian"
                 android:layout_marginLeft="45dp"
-                android:layout_marginStart="45dp" />
+                android:text="@string/btnIndexFinance"
+                android:textColor="#040404"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textAlignment="gravity"
+                android:gravity="center"
+                android:background="@android:color/holo_red_dark"
+                android:layout_below="@+id/btnCafe"
+                android:layout_toStartOf="@+id/mainBtnJG"
+                android:layout_marginEnd="32dp" />
 
-            <ImageView
+            <TextView
                 android:id="@+id/btnLongmian"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="20sp"
+                android:layout_height="20sp"
                 android:src="@drawable/cac_btn_longmen"
-                android:layout_below="@+id/btnAuditorium"
-                android:layout_toRightOf="@+id/btnAuditorium"
-                android:layout_toEndOf="@+id/btnAuditorium" />
+                android:text="@string/btnIndexLongMian"
+                android:textColor="#040404"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textAlignment="gravity"
+                android:gravity="center"
+                android:background="@android:color/holo_red_dark"
+                android:layout_above="@+id/btnBarracks"
+                android:layout_alignStart="@+id/btnAssembly" />
 
-            <ImageView
+            <TextView
                 android:id="@+id/btnXianmian"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
                 android:src="@drawable/cac_btn_xianmian"
-                android:layout_below="@+id/btnLongmian"
-                android:layout_toRightOf="@+id/btnFinance"
-                android:layout_toEndOf="@+id/btnFinance"
                 android:layout_marginLeft="45dp"
-                android:layout_marginStart="45dp" />
+                android:text="@string/btnIndexXianMian"
+                android:textColor="#040404"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textAlignment="gravity"
+                android:gravity="center"
+                android:background="@android:color/holo_red_dark"
+                android:layout_marginBottom="48dp"
+                android:layout_alignParentBottom="true"
+                android:layout_toStartOf="@+id/btnGate" />
+
+            <TextView
+                android:id="@+id/btnPool"
+                android:layout_width="20sp"
+                android:layout_height="20sp"
+                android:foregroundGravity="fill"
+                android:text="@string/btnIndexPool"
+                android:textColor="#040404"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textAlignment="gravity"
+                android:gravity="center"
+                android:background="@android:color/holo_red_dark"
+                android:layout_centerVertical="true"
+                android:layout_toStartOf="@+id/btnXianmian"
+                android:layout_marginEnd="12dp" />
+
+            <TextView
+                android:id="@+id/btnBarracks"
+                android:layout_width="20sp"
+                android:layout_height="20sp"
+                android:foregroundGravity="fill"
+                android:text="@string/btnIndexBarracks"
+                android:textColor="#040404"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textAlignment="gravity"
+                android:gravity="center"
+                android:background="@android:color/holo_red_dark"
+                android:layout_alignTop="@+id/btnXianmian"
+                android:layout_alignEnd="@+id/btnArt"
+                android:layout_marginEnd="17dp" />
+
+            <TextView
+                android:id="@+id/btnAssembly"
+                android:layout_width="20sp"
+                android:layout_height="20sp"
+                android:foregroundGravity="fill"
+                android:text="@string/btnIndexAssembly"
+                android:textColor="#040404"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textAlignment="gravity"
+                android:gravity="center"
+                android:background="@android:color/holo_red_dark"
+                android:layout_marginStart="17dp"
+                android:layout_below="@+id/mainBtnBettyBarr"
+                android:layout_toEndOf="@+id/btnPool" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/main_btnJG"
+                android:id="@+id/mainBtnJG"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/button"
+                android:layout_above="@+id/btnCafe"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/main_btnList"
+                android:id="@+id/mainBtnList"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/button"
+                android:layout_alignTop="@+id/btnCafe"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/main_btnBettyBarr"
+                android:id="@+id/mainBtnBettyBarr"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/button"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/main_btnAbout"
+                android:id="@+id/mainBtnAbout"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/button"
+                android:layout_above="@+id/btnCafe"
+                android:layout_alignParentStart="true" />
 
         </RelativeLayout>
 
@@ -79,53 +217,6 @@
         android:layout_height="wrap_content"
         android:gravity="bottom">
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="@string/main_btnAbout"
-            android:id="@+id/mainBtnAbout"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentRight="true"
-            android:layout_marginRight="5dp"
-            android:layout_marginTop="5dp"
-            android:background="@drawable/button"/>
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="@string/main_btnList"
-            android:id="@+id/mainBtnList"
-            android:layout_marginRight="5dp"
-            android:background="@drawable/button"
-            android:layout_alignTop="@+id/btnArt"
-            android:layout_alignParentEnd="true"
- />
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="@string/main_btnBettyBarr"
-            android:id="@+id/mainBtnBettyBarr"
-            android:layout_marginRight="5dp"
-            android:layout_marginTop="5dp"
-            android:background="@drawable/button"
-            android:layout_below="@+id/mainBtnList"
-            android:layout_alignParentEnd="true" />
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="@string/main_btnJG"
-            android:id="@+id/mainBtnJG"
-            android:layout_marginRight="5dp"
-            android:layout_marginTop="5dp"
-            android:background="@drawable/button"
-            android:layout_below="@+id/mainBtnList"
-            android:layout_alignParentEnd="true" />
     </LinearLayout>
 
 </FrameLayout>
