@@ -29,6 +29,8 @@ public class MainMap extends RelativeLayout {
         // TODO Auto-generated constructor stub
     }
 
+
+
     protected void dispatchDraw(Canvas canvas) {
         canvas.save(Canvas.MATRIX_SAVE_FLAG);
         canvas.scale(mScaleFactor, mScaleFactor, mPivotX, mPivotY);

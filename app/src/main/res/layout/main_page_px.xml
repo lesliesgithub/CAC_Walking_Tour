@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ContainerView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom">
+
+    </LinearLayout>
+
+    <com.shsid.bktronze.cac.ZoomLayout
+        android:id="@+id/mainMapZoomView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:id="@+id/ContentView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/cac_current_map" />
+
+            <TextView
+                android:id="@+id/btn1Gate"
+                android:layout_width="15px"
+                android:layout_height="15px"
+                android:foregroundGravity="fill"
+                android:layout_marginTop="6px"
+                android:layout_marginStart="472px"
+                android:text="@string/btnIndexGate"
+                android:textColor="#ffffff"
+                android:textSize="12px"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:background="@android:color/holo_red_dark"
+                android:layout_below="@+id/mainBtnJG" />
+
+            <TextView
+                android:id="@+id/btn2Art"
+                android:layout_width="15px"
+                android:layout_height="15px"
+                android:layout_marginTop="84px"
+                android:layout_marginStart="454px"
+                android:foregroundGravity="fill"
+                android:text="@string/btnIndexArt"
+                android:textColor="#ffffff"
+                android:textSize="12px"
+                android:textStyle="bold"
+                android:textAlignment="gravity"
+                android:gravity="center"
+                android:background="@android:color/holo_red_dark"/>
+
+            <TextView
+                android:id="@+id/btn3Cafe"
+                android:layout_width="15px"
+                android:layout_height="15px"
+                android:textSize="12px"
+                android:text="@string/btnIndexCafe"
+                android:layout_marginTop="84px"
+                android:layout_marginStart="395px"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textAlignment="gravity"
+                android:gravity="center"
+                android:background="@android:color/holo_red_dark"/>
+
+            <TextView
+                android:id="@+id/btn9Finance"
+                android:layout_width="15px"
+                android:layout_height="15px"
+                android:textSize="12px"
+                android:layout_marginTop="150px"
+                android:layout_marginStart="472px"
+                android:src="@drawable/cac_btn_finance"
+                android:text="@string/btnIndexFinance"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textAlignment="gravity"
+                android:gravity="center"
+                android:background="@android:color/holo_red_dark"/>
+
+            <TextView
+                android:id="@+id/btn7Longmian"
+                android:layout_width="15px"
+                android:layout_height="15px"
+                android:textSize="12px"
+                android:layout_marginTop="211px"
+                android:layout_marginStart="425px"
+                android:src="@drawable/cac_btn_longmen"
+                android:text="@string/btnIndexLongMian"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textAlignment="gravity"
+                android:gravity="center"
+                android:background="@android:color/holo_red_dark" />
+
+            <TextView
+                android:id="@+id/btn8Xianmian"
+                android:layout_width="15px"
+                android:layout_height="15px"
+                android:textSize="12px"
+                android:layout_marginTop="234dp"
+                android:layout_marginLeft="452dp"
+                android:src="@drawable/cac_btn_xianmian"
+                android:text="@string/btnIndexXianMian"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textAlignment="gravity"
+                android:gravity="center"
+                android:background="@android:color/holo_red_dark"/>
+
+            <TextView
+                android:id="@+id/btn5Pool"
+                android:layout_width="15px"
+                android:layout_height="15px"
+                android:textSize="12px"
+                android:layout_marginTop="14px"
+                android:layout_marginStart="332px"
+                android:foregroundGravity="fill"
+                android:text="@string/btnIndexPool"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textAlignment="gravity"
+                android:gravity="center"
+                android:background="@android:color/holo_red_dark"
+                android:layout_centerVertical="true" />
+
+            <TextView
+                android:id="@+id/btn4Barracks"
+                android:layout_width="15px"
+                android:layout_height="15px"
+                android:textSize="12px"
+                android:layout_marginTop="100px"
+                android:layout_marginStart="212px"
+                android:foregroundGravity="fill"
+                android:text="@string/btnIndexBarracks"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textAlignment="gravity"
+                android:gravity="center"
+                android:background="@android:color/holo_red_dark"/>
+
+            <TextView
+                android:id="@+id/btn6Assembly"
+                android:layout_width="15px"
+                android:layout_height="15px"
+                android:textSize="12px"
+                android:layout_marginTop="183px"
+                android:layout_marginStart="422px"
+                android:foregroundGravity="fill"
+                android:text="@string/btnIndexAssembly"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textAlignment="gravity"
+                android:gravity="center"
+                android:background="@android:color/holo_red_dark" />
+
+            <Button
+                android:textSize="12px"
+                android:layout_width="65px"
+                android:layout_height="50px"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="@string/main_btnJG"
+                android:fontFamily="sans-serif"
+                android:id="@+id/mainBtnJG"
+                android:background="@drawable/button"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:textSize="12px"
+                android:layout_width="50px"
+                android:layout_height="50px"
+                android:gravity="center"
+                android:text="@string/main_btnList"
+                android:fontFamily="sans-serif"
+                android:id="@+id/mainBtnList"
+                android:background="@drawable/button"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:textStyle="bold"
+                android:layout_alignBottom="@+id/mainBtnJG"
+                android:layout_alignEnd="@+id/mainBtnAbout" />
+
+            <Button
+                android:textSize="12px"
+                android:layout_width="55px"
+                android:layout_height="50px"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="@string/main_btnBettyBarr"
+                android:id="@+id/mainBtnBettyBarr"
+                android:background="@drawable/button"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:gravity="center"
+                android:text="@string/main_btnAbout"
+                android:textSize="12px"
+                android:layout_width="50px"
+                android:layout_height="50px"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif"
+                android:id="@+id/mainBtnAbout"
+                android:background="@drawable/button"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:textSize="12px"
+                android:layout_width="65px"
+                android:layout_height="50px"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="@string/main_btnCredits"
+                android:fontFamily="sans-serif"
+                android:id="@+id/mainBtnCredits"
+                android:background="@drawable/button"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+    </com.shsid.bktronze.cac.ZoomLayout>
+
+</FrameLayout>

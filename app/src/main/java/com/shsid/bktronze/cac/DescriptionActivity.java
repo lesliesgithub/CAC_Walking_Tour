@@ -80,6 +80,11 @@ public class DescriptionActivity extends Activity {
             titleTV.setText(R.string.finance_title);
         }
 
+        else if(buildingTag.equals(CACConstants.TAG_CREDITS)) {
+            customHtml = "file:///android_asset/cac_credits.html";
+            titleTV.setText(R.string.credits_title);
+        }
+
         else if(buildingTag.equals(CACConstants.TAG_JG)) {
             customHtml = "file:///android_asset/cac_desc_jg.html";
             titleTV.setText(R.string.jg_title);

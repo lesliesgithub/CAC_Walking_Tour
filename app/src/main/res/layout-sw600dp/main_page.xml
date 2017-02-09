@@ -22,90 +22,88 @@
             <TextView
                 style="@style/MapNumberButtonStyle"
                 android:id="@+id/btn1Gate"
-                android:layout_marginTop="6sp"
-                android:layout_marginStart="472sp"
-                android:text="@string/btnIndexGate"
-                android:layout_below="@+id/mainBtnJG" />
+                android:layout_marginTop="90dp"
+                android:layout_marginStart="758dp"
+                android:text="@string/btnIndexGate" />
 
             <TextView
                 style="@style/MapNumberButtonStyle"
                 android:id="@+id/btn2Art"
-                android:layout_marginTop="84sp"
-                android:layout_marginStart="454sp"
+                android:layout_marginTop="140sp"
+                android:layout_marginStart="730sp"
                 android:text="@string/btnIndexArt" />
 
             <TextView
                 style="@style/MapNumberButtonStyle"
                 android:id="@+id/btn3Cafe"
                 android:text="@string/btnIndexCafe"
-                android:layout_marginTop="84sp"
-                android:layout_marginStart="395sp" />
+                android:layout_marginTop="137dp"
+                android:layout_marginStart="638dp" />
 
             <TextView
                 style="@style/MapNumberButtonStyle"
                 android:id="@+id/btn9Finance"
-                android:layout_marginTop="150sp"
-                android:layout_marginStart="472sp"
+                android:layout_marginTop="242sp"
+                android:layout_marginStart="759sp"
                 android:text="@string/btnIndexFinance" />
 
             <TextView
                 style="@style/MapNumberButtonStyle"
                 android:id="@+id/btn7Longmian"
-                android:layout_marginTop="211sp"
-                android:layout_marginStart="425sp"
+                android:layout_marginTop="338dp"
+                android:layout_marginStart="682dp"
                 android:text="@string/btnIndexLongMian" />
 
             <TextView
                 style="@style/MapNumberButtonStyle"
                 android:id="@+id/btn8Xianmian"
-                android:layout_marginTop="234dp"
-                android:layout_marginLeft="452dp"
+                android:layout_marginTop="374dp"
+                android:layout_marginLeft="725dp"
                 android:text="@string/btnIndexXianMian" />
 
             <TextView
                 style="@style/MapNumberButtonStyle"
                 android:id="@+id/btn5Pool"
-                android:layout_marginTop="144dp"
-                android:layout_marginStart="310sp"
+                android:layout_marginTop="230dp"
+                android:layout_marginStart="534dp"
                 android:text="@string/btnIndexPool" />
 
             <TextView
                 style="@style/MapNumberButtonStyle"
                 android:id="@+id/btn4Barracks"
-                android:layout_marginTop="100sp"
-                android:layout_marginStart="212sp"
+                android:layout_marginTop="158dp"
+                android:layout_marginStart="347dp"
                 android:text="@string/btnIndexBarracks"/>
 
             <TextView
                 style="@style/MapNumberButtonStyle"
                 android:id="@+id/btn6Assembly"
-                android:layout_marginTop="183sp"
-                android:layout_marginStart="422sp"
+                android:layout_marginTop="289sp"
+                android:layout_marginStart="682sp"
                 android:text="@string/btnIndexAssembly"/>
 
             <Button
                 style="@style/MapBorderButtonStyle"
-                android:layout_width="65sp"
-                android:layout_height="50sp"
+                android:layout_width="105sp"
+                android:layout_height="100sp"
                 android:text="@string/main_btnJG"
                 android:id="@+id/mainBtnJG"
                 android:layout_alignParentEnd="true" />
 
             <Button
                 style="@style/MapBorderButtonStyle"
-                android:layout_width="50sp"
-                android:layout_height="50sp"
+                android:layout_width="100sp"
+                android:layout_height="100sp"
                 android:text="@string/main_btnList"
                 android:id="@+id/mainBtnList"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentStart="true"
-                android:layout_alignBottom="@+id/mainBtnJG"
-                android:layout_alignEnd="@+id/mainBtnAbout" />
+/>
 
             <Button
                 style="@style/MapBorderButtonStyle"
-                android:layout_width="55sp"
-                android:layout_height="50sp"
+                android:layout_width="105sp"
+                android:layout_height="100sp"
                 android:text="@string/main_btnBettyBarr"
                 android:id="@+id/mainBtnBettyBarr"
                 android:layout_centerVertical="true"
@@ -114,16 +112,16 @@
             <Button
                 style="@style/MapBorderButtonStyle"
                 android:text="@string/main_btnAbout"
-                android:layout_width="50sp"
-                android:layout_height="50sp"
+                android:layout_width="100sp"
+                android:layout_height="100sp"
                 android:id="@+id/mainBtnAbout"
                 android:layout_alignParentBottom="true"
                 android:layout_alignParentStart="true" />
 
             <Button
                 style="@style/MapBorderButtonStyle"
-                android:layout_width="65sp"
-                android:layout_height="50sp"
+                android:layout_width="105sp"
+                android:layout_height="100sp"
                 android:text="@string/main_btnCredits"
                 android:id="@+id/mainBtnCredits"
                 android:layout_alignParentBottom="true"

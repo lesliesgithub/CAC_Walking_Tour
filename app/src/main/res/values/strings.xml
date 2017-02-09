@@ -12,10 +12,11 @@
     <string name="start_title">Civilian Assembly Center</string>
 
     <!-- Main Page Resources -->
-    <string name="main_btnAbout">About CAC</string>
-    <string name="main_btnList">Bldg List</string>
-    <string name="main_btnBettyBarr">Betty Barr</string>
-    <string name="main_btnJG">JG Ballard</string>
+    <string name="main_btnAbout">About\nCAC</string>
+    <string name="main_btnList">Bldg\nList</string>
+    <string name="main_btnBettyBarr">Betty\nBarr</string>
+    <string name="main_btnJG">JG \nBallard</string>
+    <string name="main_btnCredits">Credits</string>
 
     <!-- Description Dialog Resources -->
 
@@ -64,5 +65,6 @@
     <string name="betty_barr_sound_bite_title_8_japanese">The Japanese</string>
 
     <string name="jg_title">JG Ballard</string>
+    <string name="credits_title">Credits</string>
 
 </resources>

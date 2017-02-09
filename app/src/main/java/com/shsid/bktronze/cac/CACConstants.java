@@ -27,4 +27,5 @@ public class CACConstants {
     public static String TAG_FINANCE = "FINANCE";
     public static String TAG_ASSEMBLY = "ASSEMBLY";
     public static String TAG_JG = "JG";
+    public static String TAG_CREDITS = "Credits";
 }

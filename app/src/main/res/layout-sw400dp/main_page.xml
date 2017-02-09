@@ -22,65 +22,51 @@
             <TextView
                 style="@style/MapNumberButtonStyle"
                 android:id="@+id/btn1Gate"
-                android:layout_marginTop="6sp"
-                android:layout_marginStart="472sp"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="522dp"
                 android:text="@string/btnIndexGate"
                 android:layout_below="@+id/mainBtnJG" />
 
             <TextView
                 style="@style/MapNumberButtonStyle"
                 android:id="@+id/btn2Art"
-                android:layout_marginTop="84sp"
-                android:layout_marginStart="454sp"
+                android:layout_marginTop="100dp"
+                android:layout_marginStart="504dp"
                 android:text="@string/btnIndexArt" />
 
             <TextView
                 style="@style/MapNumberButtonStyle"
-                android:id="@+id/btn3Cafe"
-                android:text="@string/btnIndexCafe"
-                android:layout_marginTop="84sp"
-                android:layout_marginStart="395sp" />
-
-            <TextView
-                style="@style/MapNumberButtonStyle"
                 android:id="@+id/btn9Finance"
-                android:layout_marginTop="150sp"
-                android:layout_marginStart="472sp"
+                android:layout_marginTop="176dp"
+                android:layout_marginStart="525dp"
                 android:text="@string/btnIndexFinance" />
 
             <TextView
                 style="@style/MapNumberButtonStyle"
                 android:id="@+id/btn7Longmian"
-                android:layout_marginTop="211sp"
-                android:layout_marginStart="425sp"
+                android:layout_marginTop="248dp"
+                android:layout_marginStart="467dp"
                 android:text="@string/btnIndexLongMian" />
 
             <TextView
                 style="@style/MapNumberButtonStyle"
                 android:id="@+id/btn8Xianmian"
-                android:layout_marginTop="234dp"
-                android:layout_marginLeft="452dp"
+                android:layout_marginTop="276dp"
+                android:layout_marginLeft="500dp"
                 android:text="@string/btnIndexXianMian" />
 
             <TextView
                 style="@style/MapNumberButtonStyle"
-                android:id="@+id/btn5Pool"
-                android:layout_marginTop="144dp"
-                android:layout_marginStart="310sp"
-                android:text="@string/btnIndexPool" />
-
-            <TextView
-                style="@style/MapNumberButtonStyle"
                 android:id="@+id/btn4Barracks"
-                android:layout_marginTop="100sp"
-                android:layout_marginStart="212sp"
+                android:layout_marginTop="117dp"
+                android:layout_marginStart="220dp"
                 android:text="@string/btnIndexBarracks"/>
 
             <TextView
                 style="@style/MapNumberButtonStyle"
                 android:id="@+id/btn6Assembly"
-                android:layout_marginTop="183sp"
-                android:layout_marginStart="422sp"
+                android:layout_marginTop="215dp"
+                android:layout_marginStart="465dp"
                 android:text="@string/btnIndexAssembly"/>
 
             <Button
@@ -128,6 +114,22 @@
                 android:id="@+id/mainBtnCredits"
                 android:layout_alignParentBottom="true"
                 android:layout_alignParentEnd="true" />
+
+            <TextView
+                style="@style/MapNumberButtonStyle"
+                android:id="@+id/btn5Pool"
+                android:layout_marginTop="167dp"
+                android:layout_marginStart="358dp"
+                android:text="@string/btnIndexPool" />
+
+            <TextView
+                style="@style/MapNumberButtonStyle"
+                android:id="@+id/btn3Cafe"
+                android:text="@string/btnIndexCafe"
+                android:layout_alignBaseline="@+id/btn2Art"
+                android:layout_alignBottom="@+id/btn2Art"
+                android:layout_alignEnd="@+id/btn6Assembly"
+                android:layout_marginEnd="30dp" />
 
         </RelativeLayout>
 

@@ -1,5 +1,25 @@
 <resources>
 
+    <style name="MapNumberButtonStyle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_width">15dp</item>
+        <item name="android:layout_height">15dp</item>
+        <item name="android:foregroundGravity">fill</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@android:color/holo_red_dark</item>
+    </style>
+
+    <style name="MapBorderButtonStyle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:foregroundGravity">fill</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/button</item>
+    </style>
+
     <!--
         Base application theme, dependent on API level. This theme is replaced
         by AppBaseTheme from res/values-vXX/styles.xml on newer devices.

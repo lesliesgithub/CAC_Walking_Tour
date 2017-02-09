@@ -5,10 +5,19 @@ package com.shsid.bktronze.cac;
  */
 
 import android.app.Activity;
+import android.content.Context;
 import android.os.Bundle;
 import android.view.View;
 
+import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
+
 public class WelcomeActivity extends Activity {
+
+    @Override
+    // Override the default font with a custom-defined font. This is a per-activity setting
+    protected void attachBaseContext(Context newBase) {
+        super.attachBaseContext(CalligraphyContextWrapper.wrap(newBase));
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
